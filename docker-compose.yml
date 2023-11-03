@@ -1,0 +1,6 @@
+version: '3'
+services:
+  spark_app:
+    build:
+      context: .
+      dockerfile: Dockerfile
